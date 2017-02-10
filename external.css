@@ -1,0 +1,49 @@
+body{
+ bgcolor: #98f5ff;
+}
+button {
+color:White;
+background-color:black;
+margin-left:60px;
+font-size:20px;
+}
+.div1 {
+background-color:#76ee00; height :100px;
+}
+.h1 {
+color:White;
+margin-left: 500px;
+font-szie: 150px;
+margin-top:0px;
+height:50px;
+}
+.div2{
+background-color:white;
+margin-top:0px;
+height:50px;
+}
+.nav {
+margin-left:40px;
+font-szie: 50px;
+}
+.nav1{
+color:White;
+}
+.div3{
+color:white;
+margin-left:50px;
+margin-top:0px;
+font-size:20px;
+text-decoration:none;
+}
+.div4{
+background-color:black;
+height:50px;
+}
+.timer1
+{
+float:right;
+margin-top:-15px;
+color:black;
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="external.css">
+    <script>
+    	function displayTime(){
+				var date=new Date();
+				var time=date.toLocaleTimeString();
+				document.getElementById("timer").innerHTML=time;
+}
+   setInterval(function(){ displayTime(); }, 1000);
+ function fun()
+ {
+   window.open("http://www.w3schools.com/css/default.asp");
+ }
+ function fun1()
+ {
+   window.open("http://www.gadgetsnow.com/tech-news");
+ }
+function fun2()
+ {
+   window.open("http://www.cssdesignawards.com/website-gallery?industry=products");
+ }
+function fun3()
+ {
+   window.open("http://webdesign.about.com/od/css/qt/aatypesofcss.htm");
+ }
+function fun4()
+ {
+    window.location.href="details.html";
+ }
+
+</script>
+
+
+</head>
+<body>
+
+<div class="div1">
+    <header role="banner">
+    <h1 class="h1">FreeCSS</h1>
+<p id="timer" class="timer1"></p>
+</header>
+</div>
+<div class="div2 ">
+<nav class="nav1">
+    <button type ="button" onClick="fun()">HOME</button>
+    <button type ="button" onClick="fun1()">NEWS</button>
+    <button type ="button" onClick="fun2()">PRODUCT</button>
+    <button type ="button" onClick="fun3()">CATEGORIES</button>
+    <button type ="button" onClick="fun4()">CONTACT</button>
+
+</nav>
+</div>
+<iframe src="demo.html" height="300" width="700"></iframe>
+<iframe src="nav.html" height="300" width="560"></iframe>
+<iframe src="template.html" height="200" width="700"></iframe>
+<iframe id="imageLoader" src="" height="200" width="350"></iframe>
+</body>
+</html>

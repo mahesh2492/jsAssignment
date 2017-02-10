@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var userArray= new Array();
+var passArray= new Array();
+userArray.push("mahesh");
+passArray.push("123");
+userArray.push("shivangi");
+passArray.push("shiv");
+userArray.push("nikhil");
+passArray.push("niks");
+function onvalidate()
+{
+  var user = document.getElementById("id1").value;
+  var pass = document.getElementById("id2").value;
+  
+  for(i = 0,j=0; i< userArray.length-1,i< passArray.length-1;i++,j++)
+  {
+      if(user == userArray[i] && pass == passArray[j])
+      window.location.href = "FreeCss.html"
+      if(i == userArray.length)
+      window.alert("Username and password is incorrect")
+}
+  
+}
+
+</script>
+</head>
+<body>
+<div>
+		<img src="htmlPic.png" width="1300px" height="400px"/>
+</div>
+<div>
+<form method="post">
+  
+  <input type="text" id ="id1" name="userid" placeholder="UserName" >
+  <input type="password" id="id2" name="pswd" placeholder="Password">
+  <input type="button" value="Login" onClick="onvalidate()">
+</form>
+</div>
+
+
+</body>
+</html>
+
